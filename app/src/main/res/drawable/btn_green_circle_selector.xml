@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/green_circle_btn_pre" android:textColor="@color/software_textColor_selected" android:state_pressed="true"/>
+    <item android:drawable="@drawable/green_circle_btn_pre" android:state_focused="true"/>
+    <item android:drawable="@drawable/green_circle_btn_nor" android:textColor="@color/software_textColor_unselected" />
+
+</selector>

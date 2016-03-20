@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".UploadActivity">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/app_icon"
+        android:layout_weight="1"
+        android:layout_marginTop="-20dp" />
+
+    <Button
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:text="@string/monitor"
+        android:id="@+id/monitor"
+        android:background="@drawable/green_circle_btn_nor"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="115dp"
+        android:textAllCaps="false"
+        android:textColor="@drawable/btn_text_selector"
+        android:textSize="18sp"
+        android:visibility="visible"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:visibility="visible"
+        android:layout_weight="1"/>
+    <!--<Button-->
+        <!--android:id="@+id/takepicture"-->
+        <!--android:text="takepicture"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"/>-->
+        <!--<Button-->
+            <!--android:id="@+id/takerecorder"-->
+            <!--android:text="start"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"/>-->
+        <Button
+            android:id="@+id/setAlarm"
+            android:text="set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/stopAlarm"
+            android:text="stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/green_circle_bg"
+            android:layout_marginBottom="-330dp"
+            android:layout_marginLeft="-30dp"
+            android:layout_marginRight="-30dp"
+            android:layout_marginTop="37dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:layout_marginLeft="-30dp"
+            android:layout_marginRight="-30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:id="@+id/micro_monitor"
+                android:background="@drawable/micro_nor"
+                android:layout_marginLeft="45dp"
+                android:layout_weight="2"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="30dp" />
+
+            <Button
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:id="@+id/camera_monitor"
+                android:elevation="20dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:background="@drawable/camera_nor"
+                android:layout_weight="2" />
+
+            <Button
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:id="@+id/signal_monitor"
+                android:layout_marginRight="45dp"
+                android:background="@drawable/signal_nor"
+                android:layout_weight="2"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="30dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
