@@ -342,7 +342,11 @@ public class UploadActivity extends Activity {
                 mCamera = null;
             }
             if(receiver!=null){
-                UploadActivity.this.unregisterReceiver(receiver);
+                try {
+                    UploadActivity.this.unregisterReceiver(receiver);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 System.out.println("receiverDestroyed");
             }
         }
