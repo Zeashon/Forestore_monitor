@@ -24,12 +24,12 @@
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",

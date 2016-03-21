@@ -27,12 +27,16 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import java.io.ByteArrayInputStream;
+import java.io.DataOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.ref.SoftReference;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -51,6 +55,12 @@ public class UploadActivity extends Activity {
     String mCurrentPhotoPath;
     private Context mContext;
     MyReceiver receiver;
+    //要上传的本地文件路径
+    private String uploadFile;
+    private String uploadRecoder;
+    private String recorderName;
+    //上传到服务器的指定位置
+    private String actionUrl = "http://192.18.100.100:8080/upload/upload.jsp";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -182,7 +192,7 @@ public class UploadActivity extends Activity {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
+        uploadFile(recorderName);
     }
 
 
@@ -260,7 +270,12 @@ public class UploadActivity extends Activity {
             String fileName = System.currentTimeMillis() + ".jpg";
             File file = new File(appDir, fileName);
             path = file.getAbsolutePath();
-            Log.i(TAG, path.toString());
+            //添加到上传队列
+            uploadFile =path;
+//            上传至服务器
+            uploadFile(fileName);
+
+            Log.i(TAG, path.toString()+"  upload to serve.");
             mCurrentPhotoPath = path;//将图片路径提取出来
             try {
                 FileOutputStream fos = new FileOutputStream(file);
@@ -355,6 +370,10 @@ public class UploadActivity extends Activity {
 //    audioFile=File.createTempFile("record_",".amr");
         //第4步：指定音频输出文件
         mediaRecorder.setOutputFile(file.getAbsolutePath());
+        //获取音频文件路径
+        uploadRecoder = file.getAbsolutePath();
+//        音频文件名
+        recorderName = fileName;
         Log.i(TAG, "record path = " + file.getAbsolutePath());
         //第5步：调用prepare方法
         try {
@@ -368,8 +387,8 @@ public class UploadActivity extends Activity {
     @Override
     protected void onNewIntent(Intent intent) {
         setIntent(intent);
-        takePhotoRecord();
-        Log.i(TAG, "takePhotoRecord() is running.");
+//        takePhotoRecord();
+//        Log.i(TAG, "takePhotoRecord() is running.");
     }
 
     public class MyReceiver extends BroadcastReceiver {
@@ -407,6 +426,69 @@ public class UploadActivity extends Activity {
             System.out.println("MyReceiver");
         //构造函数，做一些初始化工作
 
+        }
+    }
+
+//    上传至服务器
+    private void uploadFile( String fileName)
+    {
+        String end = "/r/n";
+        String Hyphens = "--";
+        String boundary = "*****";
+        try
+        {
+            URL url = new URL(actionUrl);
+            HttpURLConnection con = (HttpURLConnection) url.openConnection();
+      /* 允许Input、Output，不使用Cache */
+            con.setDoInput(true);
+            con.setDoOutput(true);
+            con.setUseCaches(false);
+      /* 设定传送的method=POST */
+            con.setRequestMethod("POST");
+      /* setRequestProperty */
+            con.setRequestProperty("Connection", "Keep-Alive");
+            con.setRequestProperty("Charset", "UTF-8");
+            con.setRequestProperty("Content-Type",
+                    "multipart/form-data;boundary=" + boundary);
+      /* 设定DataOutputStream */
+            DataOutputStream ds = new DataOutputStream(con.getOutputStream());
+            ds.writeBytes(Hyphens + boundary + end);
+            ds.writeBytes("Content-Disposition: form-data; "
+                    + "name=/file1/;filename=/" + fileName + "/" + end);
+            ds.writeBytes(end);
+      /* 取得文件的FileInputStream */
+            FileInputStream fStream = new FileInputStream(uploadFile);
+      /* 设定每次写入1024bytes */
+            int bufferSize = 1024;
+            byte[] buffer = new byte[bufferSize];
+            int length = -1;
+      /* 从文件读取数据到缓冲区 */
+            while ((length = fStream.read(buffer)) != -1)
+            {
+        /* 将数据写入DataOutputStream中 */
+                ds.write(buffer, 0, length);
+            }
+            ds.writeBytes(end);
+            ds.writeBytes(Hyphens + boundary + Hyphens + end);
+            fStream.close();
+            ds.flush();
+      /* 取得Response内容 */
+            InputStream is = con.getInputStream();
+            int ch;
+            StringBuffer b = new StringBuffer();
+            while ((ch = is.read()) != -1)
+            {
+                b.append((char) ch);
+            }
+            System.out.println("上传成功");
+            Toast.makeText(UploadActivity.this, "上传成功", Toast.LENGTH_LONG)
+                    .show();
+            ds.close();
+        } catch (Exception e)
+        {
+            System.out.println("上传失败" + e.getMessage());
+            Toast.makeText(UploadActivity.this, "上传失败" + e.getMessage(),
+                    Toast.LENGTH_LONG).show();
         }
     }
 }

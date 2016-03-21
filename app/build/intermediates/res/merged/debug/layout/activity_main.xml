@@ -35,7 +35,7 @@
         android:orientation="horizontal">
     <SurfaceView
         android:id="@+id/surfaceView"
-        android:layout_width="120dp"
+        android:layout_width="1dp"
         android:layout_height="120dp"
         android:visibility="visible"
         android:layout_weight="1"/>
