@@ -14,7 +14,7 @@ ADDED from E:\Work\Forestore\forestore_monitor\Forestore_monitor\app\src\main\An
 		INJECTED from E:\Work\Forestore\forestore_monitor\Forestore_monitor\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Work\Forestore\forestore_monitor\Forestore_monitor\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Work\Forestore\forestore_monitor\Forestore_monitor\app\src\main\AndroidManifest.xml:5:5-95
+ADDED from E:\Work\Forestore\forestore_monitor\Forestore_monitor\app\src\main\AndroidManifest.xml:5:5-78
 	android:name
 		ADDED from E:\Work\Forestore\forestore_monitor\Forestore_monitor\app\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.RECORD_AUDIO
@@ -22,11 +22,11 @@ ADDED from E:\Work\Forestore\forestore_monitor\Forestore_monitor\app\src\main\An
 	android:name
 		ADDED from E:\Work\Forestore\forestore_monitor\Forestore_monitor\app\src\main\AndroidManifest.xml:6:22-68
 uses-permission#android.permission.CAMERA
-ADDED from E:\Work\Forestore\forestore_monitor\Forestore_monitor\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from E:\Work\Forestore\forestore_monitor\Forestore_monitor\app\src\main\AndroidManifest.xml:7:5-64
 	android:name
 		ADDED from E:\Work\Forestore\forestore_monitor\Forestore_monitor\app\src\main\AndroidManifest.xml:7:22-62
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from E:\Work\Forestore\forestore_monitor\Forestore_monitor\app\src\main\AndroidManifest.xml:8:5-95
+ADDED from E:\Work\Forestore\forestore_monitor\Forestore_monitor\app\src\main\AndroidManifest.xml:8:5-78
 	android:name
 		ADDED from E:\Work\Forestore\forestore_monitor\Forestore_monitor\app\src\main\AndroidManifest.xml:8:22-76
 uses-permission#android.permission.INTERNET

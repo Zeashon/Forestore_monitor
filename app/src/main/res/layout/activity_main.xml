@@ -13,32 +13,35 @@
         android:id="@+id/imageView"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/app_icon"
-        android:layout_weight="1"
-        android:layout_marginTop="-20dp" />
+        android:layout_weight="1" />
 
     <Button
         android:layout_width="165dp"
         android:layout_height="165dp"
         android:text="@string/monitor"
         android:id="@+id/monitor"
-        android:background="@drawable/green_circle_btn_nor"
+        android:background="@drawable/green_circle_bg"
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="115dp"
         android:textAllCaps="false"
         android:textColor="@drawable/btn_text_selector"
         android:textSize="18sp"
-        android:visibility="visible"/>
+        android:visibility="visible" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/setLayout"
+        android:visibility="visible"
+        android:layout_weight="1">
     <SurfaceView
         android:id="@+id/surfaceView"
-        android:layout_width="1dp"
+        android:layout_width="380dp"
         android:layout_height="120dp"
         android:visibility="visible"
-        android:layout_weight="1"/>
+        android:layout_weight="2" />
     <!--<Button-->
         <!--android:id="@+id/takepicture"-->
         <!--android:text="takepicture"-->
@@ -51,24 +54,41 @@
             <!--android:layout_width="wrap_content"-->
             <!--android:layout_height="wrap_content"-->
             <!--android:layout_weight="1"/>-->
-        <Button
-            android:id="@+id/setAlarm"
-            android:text="set"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"/>
-        <Button
-            android:id="@+id/stopAlarm"
-            android:text="stop"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/setAlarm"
+                android:text="set"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_green_circle_selector"
+                android:textColor="@android:color/white"
+                android:layout_margin="5dp" />
+
+            <Button
+                android:id="@+id/stopAlarm"
+                android:text="stop"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:background="@drawable/btn_green_circle_selector"
+                android:layout_margin="5dp" />
+        </LinearLayout>
+
     </LinearLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="2"
-        android:visibility="gone">
+        android:id="@+id/stateLayout"
+        android:visibility="visible"
+        android:layout_weight="1">
 
         <ImageView
             android:layout_width="fill_parent"
@@ -83,7 +103,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_weight="2"
             android:layout_marginLeft="-30dp"
             android:layout_marginRight="-30dp"

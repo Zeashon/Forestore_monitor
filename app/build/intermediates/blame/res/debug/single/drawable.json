@@ -1,15 +1,7 @@
 [
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
@@ -28,6 +20,14 @@
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
+        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_text_selector.xml",
+        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\src\\main\\res\\drawable\\btn_text_selector.xml"
+    },
+    {
+        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
@@ -36,20 +36,12 @@
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_circle_btn_pre.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\src\\main\\res\\drawable\\green_circle_btn_pre.xml"
+        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_text_selector.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\src\\main\\res\\drawable\\btn_text_selector.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\signal_err.png",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\src\\main\\res\\drawable\\signal_err.png"
+        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
@@ -58,10 +50,6 @@
     {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\app_icon.png",
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\src\\main\\res\\drawable\\app_icon.png"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
@@ -76,144 +64,12 @@
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\micro_err.png",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\src\\main\\res\\drawable\\micro_err.png"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_circle_bg.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\src\\main\\res\\drawable\\green_circle_bg.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\micro_nor.png",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\src\\main\\res\\drawable\\micro_nor.png"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\state_ok.png",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\src\\main\\res\\drawable\\state_ok.png"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_circle_selector.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\src\\main\\res\\drawable\\btn_green_circle_selector.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_text_selector.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\src\\main\\res\\drawable\\btn_text_selector.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\state_ok.png",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\src\\main\\res\\drawable\\state_ok.png"
-    },
-    {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera_nor.png",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\src\\main\\res\\drawable\\camera_nor.png"
-    },
-    {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\state_err.png",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\src\\main\\res\\drawable\\state_err.png"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
@@ -224,80 +80,64 @@
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\src\\main\\res\\drawable\\camera_nor.png"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\app_icon.png",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\src\\main\\res\\drawable\\app_icon.png"
-    },
-    {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\micro_nor.png",
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\src\\main\\res\\drawable\\micro_nor.png"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_circle_btn_nor.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\src\\main\\res\\drawable\\green_circle_btn_nor.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\signal_nor.png",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\src\\main\\res\\drawable\\signal_nor.png"
+        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\micro_err.png",
+        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\src\\main\\res\\drawable\\micro_err.png"
     },
     {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_circle_selector.xml",
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\src\\main\\res\\drawable\\btn_green_circle_selector.xml"
     },
     {
+        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera_err.png",
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\src\\main\\res\\drawable\\camera_err.png"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_circle_btn_pre.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\src\\main\\res\\drawable\\green_circle_btn_pre.xml"
+        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_circle_btn_pre.xml",
+        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\src\\main\\res\\drawable\\green_circle_btn_pre.xml"
     },
     {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera_err.png",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\src\\main\\res\\drawable\\camera_err.png"
-    },
-    {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\micro_err.png",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\src\\main\\res\\drawable\\micro_err.png"
     },
     {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\state_err.png",
@@ -308,12 +148,12 @@
         "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\src\\main\\res\\drawable\\green_circle_bg.xml"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor02\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\state_ok.png",
+        "source": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\src\\main\\res\\drawable\\state_ok.png"
     },
     {
         "merged": "E:\\Work\\Forestore\\forestore_monitor\\Forestore_monitor\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\signal_nor.png",
