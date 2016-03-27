@@ -34,7 +34,7 @@
         android:orientation="vertical"
         android:layout_gravity="center_horizontal"
         android:id="@+id/setLayout"
-        android:visibility="visible"
+        android:visibility="gone"
         android:layout_weight="1">
     <SurfaceView
         android:id="@+id/surfaceView"
